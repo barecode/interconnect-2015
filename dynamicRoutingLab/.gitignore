@@ -1,5 +1,5 @@
 .gradle
-build/
+/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -14,3 +14,8 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 /bin/
 /.apt_generated/
+
+# Ignore the generated Eclipse files
+.project
+.classpath
+.settings
